@@ -663,7 +663,7 @@ if (location.search.match(/vertical-colors?-box/)) {
 	update_from_url_params();
 }
 
-const $app = $(E("div")).addClass("jspaint").appendTo("body");
+const $app = $(E("div")).addClass("jspaint").appendTo("appcontainer");
 
 const $V = $(E("div")).addClass("vertical").appendTo($app);
 const $H = $(E("div")).addClass("horizontal").appendTo($V);
